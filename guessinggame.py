@@ -40,6 +40,8 @@ def playagain():
         game()
     elif user_command == "n":
         print("Thanks for playing!")
+        print('Final Score:\n',
+              'Score:', score, 'Attempts:', turn, 'Percent Accuracy:', int(score/turn*100))
         quit()
         
 turn = 0
